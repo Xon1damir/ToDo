@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import ToDoApp from './project/ToDoApp';
+// import Table from './projectCheck/t';
+// import Items from './projectCheck/t_i';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  return(
+    // <div className="app w-50 mx-auto table-responsive-sm  table-responsive-md table-responsive-lg  table-responsive-xl   ">
+    //    <table className="table table-striped table-sm ">
+    //      <Table/>
+    //       <tbody>
+    //         <Items/>
+    //       </tbody>
+    //     </table> 
+    //   </div>
+         <ToDoApp/>
 
+  )
+}
 export default App;
