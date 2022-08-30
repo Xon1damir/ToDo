@@ -1,6 +1,6 @@
 const express = require("express");
 const joi = require("joi");
-const tasks = require("../data");
+const tasks = require("../my-app/data");
 const router = express.Router();
 
 // kelayotgan so'rovni validatsiya qilish function
